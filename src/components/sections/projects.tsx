@@ -59,7 +59,7 @@ export function Projects() {
         <div className="grid lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div
-              key={project.title}
+              key={index}
               className="group bg-accent rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
             >
               <div className="relative overflow-hidden">
