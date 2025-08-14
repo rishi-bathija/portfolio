@@ -14,7 +14,7 @@ const projects = [
     category: "Entertainment",
     description: "Netflix-style movie discovery platform, built using TMDB and Gemini APIs for standard and AI-powered search. Includes Firebase authentication, watchlist management with MongoDB, infinite scroll, and interactive UI using Redux Toolkit.",
     image: Moviesflix,
-    videoUrl: "/moviesflix.mp4",
+    videoUrl: "/moviesflix.mp4.mp4",
     technologies: ["React.js", "Node.js", "TailwindCSS", "MongoDB", "TMDB API", "Gemini API"],
     liveUrl: "https://moviesflix-frontend.vercel.app",
     githubUrl: "https://github.com/rishi-bathija/moviesflix",
@@ -36,8 +36,8 @@ const projects = [
     image: Revisitly,
     videoUrl: "",
     technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Cron jobs", "TailwindCSS", "Firebase Auth",],
-    liveUrl: "https://revisitly.vercel.app", // Replace with actual live URL
-    githubUrl: "https://github.com/rishi-bathija/revisitly",
+    liveUrl: "https://revisitly-frontend.vercel.app", // Replace with actual live URL
+    githubUrl: "https://github.com/rishi-bathija/revisitly-frontend",
   },
   {
     title: "Form Builder",
