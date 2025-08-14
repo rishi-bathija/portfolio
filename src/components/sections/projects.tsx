@@ -16,7 +16,7 @@ const projects = [
     image: Moviesflix,
     videoUrl: "/moviesflix.mp4",
     technologies: ["React.js", "Node.js", "TailwindCSS", "MongoDB", "TMDB API", "Gemini API"],
-    liveUrl: "https://moviesflix-.vercel.app",
+    liveUrl: "https://moviesflix-frontend.vercel.app",
     githubUrl: "https://github.com/rishi-bathija/moviesflix",
   },
   {
