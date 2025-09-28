@@ -3,6 +3,16 @@ import { GraduationCap, Trophy, CheckCircle } from "lucide-react";
 
 const experiences = [
   {
+    title: "Associate Software Engineer",
+    company: "Intelivita Pvt. Ltd., Ahmedabad",
+    period: "August 2025 - Present",
+    type: "current",
+    achievements: [
+      "Currently working as an Associate Software Engineer at Intelivita Pvt. Ltd.",
+      "Working on projects like EPC (Sports-Specific SAAS platform), Spedde(Restaurant Management Website)",
+    ],
+  },
+  {
     title: "ReactJs Developer",
     company: "Infoware India, Ahmedabad",
     period: "Feb 2025 - May 2025",
@@ -10,7 +20,7 @@ const experiences = [
     achievements: [
       "Built dashboards and admin panels with React.js, Next.js, and TailwindCSS",
       "Collaborated on responsive design implementation for multiple projects",
-      "Utilized Context API, SSG, and modern development practices",
+      "Worked on integerating backend APIs to frontend using REST APIs",
     ],
   },
   {
@@ -19,9 +29,8 @@ const experiences = [
     period: "Aug 2024 - Jan 2025",
     type: "previous",
     achievements: [
-      "Created scalable REST APIs for hospital management system",
-      "Built responsive pages using React.js and TailwindCSS",
-      "Improved backend database query efficiency by 30%",
+      "Created REST APIs for hospital management system",
+      "Built the responsive UI for an ecommerce website using React.js and TailwindCSS",
     ],
   },
 ];
@@ -36,12 +45,11 @@ export function Experience() {
   const { ref, isIntersecting } = useIntersectionObserver();
 
   return (
-    <section 
-      id="experience" 
+    <section
+      id="experience"
       ref={ref}
-      className={`py-20 bg-accent transition-all duration-700 ${
-        isIntersecting ? "animate-slide-up" : "opacity-0 translate-y-8"
-      }`}
+      className={`py-20 bg-accent transition-all duration-700 ${isIntersecting ? "animate-slide-up" : "opacity-0 translate-y-8"
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
@@ -58,7 +66,7 @@ export function Experience() {
             {experiences.map((exp, index) => (
               <div key={exp.title} className="relative flex items-center">
                 <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 bg-primary rounded-full border-4 border-background z-10"></div>
-                
+
                 <div className={`ml-12 md:ml-0 md:w-1/2 ${index % 2 === 0 ? 'md:pr-8' : 'md:pl-8 md:ml-auto'}`}>
                   <div className="bg-card rounded-xl p-6 shadow-lg">
                     <div className="flex items-center justify-between mb-3">
