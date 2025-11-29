@@ -47,21 +47,20 @@ export function About() {
               Frontend/Full Stack Developer
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              <span className="font-semibold text-primary">1 year of industry experience</span> building production-ready
-              web applications. Proven track record of delivering scalable solutions using React.js,
-              Node.js, and modern development practices in collaborative team environments.
+              Full Stack Developer with
+              <span className="font-semibold text-primary">1 year of industry experience</span> building production-ready web applications using React.js, Next.js, Node.js, TypeScript, Postgres, MongoDB, and modern development practices. I have delivered scalable features, clean UI components, API integrations, and end-to-end functionality in a collaborative team environments.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Computer Engineering Graduate (7.84 CGPA) actively seeking full-time opportunities, where I can contribute to impactful user experiences and grow as a Software Engineer.
+              Computer Engineering Graduate (CGPA 7.84), actively seeking full-time opportunities where I can contribute to high-quality user experiences, solve real engineering problems, and grow as a Software Engineer in a modern product or SaaS team.
             </p>
 
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div className="bg-accent p-4 rounded-lg">
-                <div className="text-2xl font-bold text-primary">10+</div>
+                <div className="text-2xl font-bold text-primary">7+</div>
                 <div className="text-sm text-muted-foreground">Production Projects</div>
               </div>
               <div className="bg-accent p-4 rounded-lg">
-                <div className="text-2xl font-bold text-primary">2</div>
+                <div className="text-2xl font-bold text-primary">3</div>
                 <div className="text-sm text-muted-foreground">Companies Worked</div>
               </div>
             </div>

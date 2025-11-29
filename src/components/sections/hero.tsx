@@ -53,8 +53,7 @@ export function Hero() {
 
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Actively seeking opportunities as a Frontend or Full Stack Developer.
-              I have 1 year of industry experience and over a year of hands-on project work, building dynamic and responsive web applications using React.js and MERN stack.
+              Actively seeking Frontend or Full-Stack Developer roles. With 1 year of industry experience and around a year of hands-on project work, I build scalable, and user-focused web applications using Next.js, Typescript, Postgres, and MERN stack.
             </p>
           </p>
 
