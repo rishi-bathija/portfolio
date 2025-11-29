@@ -47,7 +47,7 @@ export function About() {
               Frontend/Full Stack Developer
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              <span className="font-semibold text-primary">9 months of industry experience</span> building production-ready
+              <span className="font-semibold text-primary">1 year of industry experience</span> building production-ready
               web applications. Proven track record of delivering scalable solutions using React.js,
               Node.js, and modern development practices in collaborative team environments.
             </p>
